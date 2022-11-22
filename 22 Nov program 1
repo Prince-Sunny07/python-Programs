@@ -7,25 +7,3 @@ print('simple interest:',si)
 EMI=(si+a)/b*12
 print('EMI is',EMI)
 
-2nd Assignment
-a=int(input('enter a:'))
-b=int(input('enter b:'))
-a=a+b
-b=a-b
-a=a-b
-print('a value:',a)
-print('b value:',b)
-
-3rd Assignment
-sno=int(input("Enter student number:"))
-name=input('Enter Student Name:')
-gender=input('Enter gender:')
-group=input('Enter group:')
-address=input('Enter address:')
-phno=int(input('Enter phno:'))
-print('sno:',sno)
-print('name:',name)
-print('gender:',gender)
-print('group:',group)
-print('address:',address)
-print('phno:',phno)
