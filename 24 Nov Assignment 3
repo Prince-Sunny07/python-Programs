@@ -1,0 +1,21 @@
+a=int(input("Enter student number :"))
+b=input("Enter the student name :")
+c=input("Enter the student group :")
+d=int(input("Enter s1 marks :"))
+e=int(input("Enter s2 marks :"))
+f=int(input("Enter s3 marks :"))
+print("Student number is",a)
+print("Student name is",b)
+print("Student group is",c)
+if (d>=35):
+    print("The Student is pass in s1")
+else:
+    print("The Student is fail in s1")
+if (e>=35):
+    print("The Student is pass in s2")
+else:
+    print("The Student is fail in s2")
+if (f>=35):
+    print("The Student is pass in s3")
+else:
+    print("The Student is fail in s3")
