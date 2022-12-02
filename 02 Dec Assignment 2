@@ -1,0 +1,7 @@
+def votingright(a):
+    if a>=18:
+        return("Eligible for vote")
+    else:
+        return("Not Eligible for vote")
+a =int(input("Enter your age :"))
+print(votingright(a))
