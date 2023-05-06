@@ -1,16 +1,16 @@
-def count_Primes_nums(n):
-    ctr = 0
-    
-    for num in range(n):
-        if num <= 1:
-            continue
-        for i in range(2, num):
-            if (num % i) == 0:
-                break
-        else:
-            ctr += 1
-
-    return ctr
-
-print(count_Primes_nums(int(input())))
-
+import math
+seive=[]
+n=int(input())
+n=n+1
+for i in range(0,n):
+    seive.append(1)
+x=int(math.sqrt(n))
+for i in range(2,x+1):
+    if seive[i]==1:
+        for j in range(i*i,n,i):
+            seive[j]=0
+c=0
+for i in range(2,n):
+    if seive[i]==1:
+        c=c+1
+print(c)
